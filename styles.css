@@ -1,0 +1,66 @@
+body {
+  background-image: url("./assets/gradient-violet-bg.jpg");
+}
+
+.background {
+  height: 95vh;
+  position: relative;
+  width: 100%;
+  background-image: url("./assets/gradient-violet-bg.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-color: #331a5c;
+}
+
+.logo {
+  position: relative;
+  z-index: 1;
+  width: 201px;
+  height: auto;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+
+#menu {
+  display: flex;
+  position: relative;
+  float: right;
+}
+
+.menuItem {
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  height: auto;
+  padding: 15px;
+  margin-top: 12px;
+  color: #fff;
+}
+
+#menuButton {
+  width: 104px;
+  background-color: transparent;
+  height: 27px;
+  margin-top: 26px;
+  margin-left: 40px;
+  padding-top: 10px;
+  padding: 0px;
+  float: right;
+  border: 1px solid transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+}
